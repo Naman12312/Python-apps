@@ -1,0 +1,28 @@
+from tkinter import *
+import random
+tk=Tk()
+canvas=Canvas(tk,width=800,height=800)
+canvas.pack()
+canvas.create_rectangle(34,45,78,98)
+canvas.create_arc(345,367,987,123, extent=90, style=ARC)
+def random_rectangle (width, height,fillcolor):
+    x1=random.randrange(width)
+    x2=x1 + random.randrange(width)
+    y1=random.randrange(height)
+    y2=y1 + random.randrange(height)
+    canvas.create_rectangle(x1,x2,y1,y2,fill=fillcolor)
+random_rectangle(300, 300, 'green')
+random_rectangle(300, 300, 'red')
+random_rectangle(300, 400, 'blue')
+random_rectangle(300, 400, 'orange')
+random_rectangle(700, 400, 'yellow')
+random_rectangle(300, 400, 'pink')
+random_rectangle(987, 400, 'purple')
+random_rectangle(900, 400, 'violet')
+random_rectangle(400, 700, 'magenta')
+random_rectangle(800, 400, 'cyan')
+random_rectangle(765, 789, 'purple')
+random_rectangle(400, 400, 'brown')
+random_rectangle(400, 400, 'black')
+random_rectangle(500, 500, 'white')
+

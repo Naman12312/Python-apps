@@ -1,0 +1,23 @@
+from tkinter import *
+from PIL import Image, ImageTk
+root = Tk()
+root.title("Welcome to Pycharm cummunity edition")
+# image="F:\\Downloads\\g.png"
+root.geometry("733x434")
+root.maxsize(733,430)
+root.minsize(733,430)
+img = Image.open("F:\\Downloads\\download.bmp")
+image = ImageTk.PhotoImage(img)
+LL = Label(image=image)
+LL.pack()
+L = Label(text = "Pycharm Community Edition")
+L.pack()
+L2 = Label(text="1/24/2021")
+L2.pack()
+L3 = Label(text="Create a new project")
+L3.pack()
+L4 = Label(text="Open")
+L4.pack()
+L5 = Label(text="Check out for a new version")
+L5.pack()
+root.mainloop()

@@ -1,0 +1,16 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("Naman ka GUI")
+root.geometry("800x400")
+canvas = tk.Canvas(root,width=800,height=400)
+canvas.pack()
+from PIL import Image, ImageTk
+img = Image.open("F:\\downloads\\download.bmp")
+# canvas.create_line(400,0,400,400,fill="red",width=20)
+# canvas.create_line(0,200,800,200,fill="red",width=20)
+# canvas.create_rectangle(0,0,400,200,fill="light blue")
+# canvas.create_oval(0,0,400,200,fill="grey")
+# canvas.create_text(200,200,text="Python",font="lucida 32 bold")
+image = ImageTk.PhotoImage(img)
+canvas.create_image(100,100,image=image)
+root.mainloop()

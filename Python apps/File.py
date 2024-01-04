@@ -1,0 +1,5 @@
+file=open("F:\\downloads\\naman.txt","r+")
+g=file.read()
+file.write("")
+print(g)
+file.close()

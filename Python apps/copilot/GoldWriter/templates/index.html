@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <script>
+        function checkThreadStatus() {
+    $.getJSON('/thread_status/', function(data) {
+        if (data.status == 'running') {
+            console.log('Thread is still running');
+            // Check again in 1 second
+            setTimeout(checkThreadStatus, 1000);
+        } else {
+            location.href = "/"
+            // Log a message to the console
+            
+        }
+    });
+}
+
+// Start checking the thread's status
+        
+
+            data = {{ main | safe}}
+            lastOne = data.slice(-1)[0]
+            console.log(lastOne)
+            let div = document.createElement("div")
+            div.classList.add("container")
+            div.innerHTML = `
+            <h2>User: ${lastOne.pro} </h2>
+            <h2>ChatGPT: ${lastOne.response} </h2>
+            `
+            document.body.appendChild(div)
+            
+        
+        
+
+            if(lastOne.pro=="Couldn't hear properly"){
+                location.href = "/"
+            }
+            else{
+                
+                checkThreadStatus();
+                // Start checking the thread's status
+                
+            }
+        
+
+        
+            
+    </script>
+</body>
+</html>

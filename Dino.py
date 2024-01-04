@@ -1,0 +1,48 @@
+import pyautogui # pip install pyautogui
+from PIL import Image, ImageGrab # pip install pillow
+# from numpy import asarray
+import time
+pyautogui.FAILSAFE = False
+def hit(key):
+    pyautogui.keyDown(key)
+    return
+
+def isCollide(data):
+    # Draw the rectangle for birds
+    for i in range(250,320):
+        for j in range(310, 373):
+            if data[i, j] < 100:
+                return
+
+    for i in range(325, 425):
+        for j in range(373, 470):
+            if data[i, j] < 100 or data[i, j]<200:
+                hit("up")
+                return
+    return
+
+if __name__ == "__main__":
+    print("Hey.. Dino game about to start in 3 seconds")
+    time.sleep(2)
+    # hit('up') 
+
+    while True:
+        image = ImageGrab.grab().convert("L")
+        data = image.load()
+        isCollide(data)
+            
+        # print(asarray(image))
+
+        # Draw the rectangle for cactus
+        # for i in range(150,225):
+        #     for j in range(393,450):
+        #         data[i,j] = 100
+        # Draw the rectangle for birds
+        # for i in range(264, 32):
+        #     for j in range(310, 373):
+        #         data[i, j] = 171
+
+        # image.show()
+        # break
+
+

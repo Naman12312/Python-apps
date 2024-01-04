@@ -1,0 +1,101 @@
+ 
+100 Day 100 - Conclusion: Where to go from here.
+99 Day 99 - Exercise 11 - Solution.  
+98 Day 98 - MultiProcessing in Python.  
+97 Day 97 - MultiThreading in Python  .
+96 Day 96 - AsyncIO in Pyth3on3  .
+95 Day 95 - Regular Expressions  .
+94 Day 94 - Exercise 11  .
+93 Day 93 - Exercise 10 Solution.  
+92 Day 92 - Function Caching  .
+91 Day 91 - Generators in Python.  
+90 Day 90 - Exercise 10  .
+89 Day 89 - Requests Module.  
+88 Day 88 - Exercise 9 Solution.  
+87 Day 87 - Shutil Module  .
+86 Day 86 - Walrus Operator . 
+85 Day 85 - Command Line Utility.  
+84 Day 84 - Time Module  .
+83 Day 83 - Exercise 9  .
+82 Day 82 - Exercise 8 Solution . 
+81 Day 81 - Hybrid and Hierarchical Inheritance.  
+80 Day 80 - Multilevel Inheritance  .
+79 Day 79 - Multiple Inheritance  .
+78 Day 78 - Single Inheritance  .
+77 Day 77 - Operator Overloading . 
+76 Day 76 - Exercise 8  .
+75 Day 75 - Exercise 7 - Solution . 
+74 Day 74 - Method Overriding  .
+73 Day 73 - Magic/Dunder Methods.  
+72 Day 72 - super Keyword  .
+71 Day 71 - dir, dict and help methods . 
+70 Day 70 - Class methods as alternative constructors.  
+69 Day 69 - Class Methods  .
+68 Day 68 - Exercise 7  .
+67 Day 67 - Exercise 6 Solution.  
+66 Day 66 - Instance vs Class variables.  
+65 Day 65 - Static Methods  .
+64 Day 64 - Exercise 6  .
+63 Day 63 Exercise 5 - Solution.  
+62 Day 62 - Access Specifiers  .
+61 Day 61 - Inheritance in Python  .
+60 Day 60 - Getters and Setters  .
+59 Day 59 - Decorators in Python  .
+58 Day58 - Constructors  .
+57 Day57 - Classes and Objects  .
+56 Day56 - Intro to oops  .
+55 Day55 - Exercise 5  .
+54 Day54 - is vs == in Python.  
+53 Day53 - Map, Filter & Reduce.  
+52 Day52 - Lambda Functions  .
+51 Day51 - seek() and tell() functions.  
+50 Day50 - read, readlines and other methods.  
+49 Day49 - File IO  .
+48 Day48 - local vs global variables  .
+47 Day47 - Exercise 4 Solution  .
+46 Day 46 - os Module  .
+45 Day45 - if name == main in Python  .
+44 Day44 - How import works  .
+43 Day43 - Virtual Environment.  
+42 Day 42 - Enumerate  .
+41 Day41 - Short Hand if else  .
+40 Day40 - Exercise 4  .
+39 Day39 - Exercise 3: Solution  .
+38 Day38 - Custom Errors  .
+37 Day37 - Finally keyword . 
+36 Day36 - Exception Handling  .
+35 Day 35 - For loop with else  .
+34 Day34 - Dictionary Methods  .
+33 Day 33 - Dictionary  .
+32 Day32 - Set Methods  .
+31 Day31 - Sets  .
+30 Day30 - Recursion  .
+29 Day29 - Docstrings  .
+28 Day28 - f strings  .
+27 Day27 - Exercise 3  .
+26 Day 26 - Exercise 2 Solution  .
+25 Day25 - Operations on Tuples  .
+24 Day24 - Introduction to Tuples . 
+23 Day 23 - List Methods  .
+22 Day 22 -Introduction to Lists  .
+21 Day 21 - Function Arguments  .
+20 Day20 - Functions  .
+19 Day 19 - break and continue  .
+18 Day18 - While Loops  .
+17 Day17 - For Loops .
+16 Day 16 - Match Case.  
+15 Day15 - Exercise 2 - Good Morning Sir  .
+14 Day14 - If Else Conditionals  .
+13 Day13 - String Methods  .
+12 Day12 - Strings Slicing  .
+11 Day11 - Strings  .
+10 Day10 - Taking User Input  .
+09 Day9 - Typecasting in Python.  
+08 Day8 - Exercise 1 - Create a Calculator (Solution)  .
+07 Day7 - Exercise 1 - Create a Calculator   .
+06 Day6 - Variables and Data Types   .
+05 Day5 - Comments and Print  .
+04 Day4 - Our First Program.
+03 Day3 - Modules and Pip.
+02 Day2 - Application of Python.
+01 Day1 - Intro to Python.

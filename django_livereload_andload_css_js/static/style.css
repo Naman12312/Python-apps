@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    list-style: none;
+    background-color: aquamarine;
+}
+
+ul li{
+    padding: 4px 4px;
+}
+
+

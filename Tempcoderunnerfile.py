@@ -1,0 +1,11 @@
+if __name__=="__main__":
+#     print(Chachaji.printprog())
+#     print(Naman.printprog())
+#     print(Tripti.printprog())
+#     print(Dhruv_Bhaiya.printprog())
+#     Shalu.print2(Shalu.printdetails())
+#     Chachaji.speak(Chachaji.printprog())
+#     Naman.speak(Naman.printprog())
+#     Tripti.femalespeak(Tripti.printprog())
+#     Dhruv_Bhaiya.speak(Dhruv_Bhaiya.printprog())
+#     Shalu.speak(Shalu.printdetails())

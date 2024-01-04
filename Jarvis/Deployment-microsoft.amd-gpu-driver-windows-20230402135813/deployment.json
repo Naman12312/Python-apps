@@ -1,0 +1,54 @@
+{
+  "id": "/subscriptions/651da11b-7757-4742-ac91-148e47c2869b/resourceGroups/learn-3081aea5-a01a-4234-bcde-911d33c02900/providers/Microsoft.Resources/deployments/microsoft.amd-gpu-driver-windows-20230402135813",
+  "name": "microsoft.amd-gpu-driver-windows-20230402135813",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": ""
+  },
+  "properties": {
+    "templateHash": "17406294378007859271",
+    "parameters": {
+      "vmName": {
+        "type": "String",
+        "value": "VSCodeVM"
+      },
+      "location": {
+        "type": "String",
+        "value": "westindia"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Failed",
+    "timestamp": "2023-04-02T08:29:43.318963Z",
+    "duration": "PT55.7664955S",
+    "correlationId": "0a0b4366-0ef6-4d06-a03f-0114b0d82a72",
+    "providers": [
+      {
+        "namespace": "Microsoft.Compute",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualMachines/extensions",
+            "locations": [
+              "westindia"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "error": {
+      "code": "DeploymentFailed",
+      "message": "At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.",
+      "details": [
+        {
+          "code": "VMExtensionProvisioningError",
+          "message": "VM has reported a failure when processing extension 'AmdGpuDriverWindows'. Error message: \"Extension '' of Handler 'Microsoft.HpcCompute.AmdGpuDriverWindows' version '1.1.0.0' faulted due to exception during extension processing\"\r\n\r\nMore information on troubleshooting is available at https://aka.ms/vmextensionwindowstroubleshoot "
+        }
+      ]
+    },
+    "validationLevel": "Template"
+  }
+}

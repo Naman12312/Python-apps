@@ -1,0 +1,11 @@
+siti="iamamam"
+print(siti[0::2])
+print(len(siti))
+print(type(siti))
+print(siti.endswith("maaaa"))
+print(siti.count("m"))
+print(siti.capitalize())
+print(siti.find("i"))
+print(siti.upper())
+print(siti.lower())
+print(siti.replace("iamamam","1"))

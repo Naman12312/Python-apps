@@ -1,0 +1,1 @@
+move folders to documents -> rainmeter -> skins

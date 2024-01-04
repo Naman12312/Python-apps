@@ -1,0 +1,26 @@
+[
+  {
+    "id": "/subscriptions/651da11b-7757-4742-ac91-148e47c2869b/resourceGroups/learn-3081aea5-a01a-4234-bcde-911d33c02900/providers/Microsoft.Resources/deployments/microsoft.amd-gpu-driver-windows-20230402135813/operations/847C8498A0049F22",
+    "operationId": "847C8498A0049F22",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Failed",
+      "timestamp": "2023-04-02T08:29:42.2451202Z",
+      "duration": "PT52.600922S",
+      "trackingId": "f46c106e-110d-4aad-89ff-93ac6c1f7bb9",
+      "statusCode": "Conflict",
+      "statusMessage": {
+        "status": "Failed",
+        "error": {
+          "code": "VMExtensionProvisioningError",
+          "message": "VM has reported a failure when processing extension 'AmdGpuDriverWindows'. Error message: \"Extension '' of Handler 'Microsoft.HpcCompute.AmdGpuDriverWindows' version '1.1.0.0' faulted due to exception during extension processing\"\r\n\r\nMore information on troubleshooting is available at https://aka.ms/vmextensionwindowstroubleshoot "
+        }
+      },
+      "targetResource": {
+        "id": "/subscriptions/651da11b-7757-4742-ac91-148e47c2869b/resourceGroups/learn-3081aea5-a01a-4234-bcde-911d33c02900/providers/Microsoft.Compute/virtualMachines/VSCodeVM/extensions/AmdGpuDriverWindows",
+        "resourceType": "Microsoft.Compute/virtualMachines/extensions",
+        "resourceName": "VSCodeVM/AmdGpuDriverWindows"
+      }
+    }
+  }
+]
