@@ -1,4 +1,5 @@
 from tkinter import *
+
 from random import *
 import time
 class Ball:

@@ -5,6 +5,7 @@ root.geometry("646x64")
 val = IntVar()
 check = Checkbutton(root,text="Bye?",var=val)
 check.pack()
+
 def g():
     if val.get()==0:
         print("Shaytaan tune check nahi kya!")
